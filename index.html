@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Selector descendiente-->
+    <p>Este es un ejemplo de selector descendiente</p>
+    <div class="div1">
+        <p>Selector </p>
+        <h3>descendiente</h3>
+        <p>yupiii</p>
+    </div>
+
+    <!--Selector de hijo directo-->
+    <p>---------------------------------------------</p>
+    <p>Ahora, un selector de tipo "hijo directo"</p>
+    <div class="div-hijo-directo">
+        <p>Soy un hijo</p>
+        <p>directo</p>
+        <div>
+            <p>Pero yo no pues estoy dentro de otro div :/</p>
+        </div>
+    </div>
+
+    <!--Selector adyacente-->
+    <p>---------------------------------------------</p>
+    <p>ahora un selector de tipo adyacente</p>
+    <div class="selector-adyacente">
+        Abajo tendrémos dos section:
+    </div>
+    <section>
+        Esta es una section sí se aplica el estilo por estar inmediatamente bajo el div!
+    </section>
+    <section>
+        Y esta es otra section, acá no se aplica el estilo pues no está directamente bajo el div!
+    </section>
+
+    <!--Selector hermanos generales-->
+    <p>---------------------------------------------</p>
+    <p>ahora un selector de tipo hermanos generales</p>
+    <div class="selector-hermanos-generales">
+        Abajo tendrémos dos section:
+    </div>
+    <section>
+        En esta section sí se aplica el estilo por estar inmediatamente bajo el div!
+    </section>
+    <section>
+        Y esta es otra section, acá también se aplica el estilo pues también es section!
+    </section>
+</body>
+</html>

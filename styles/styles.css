@@ -1,0 +1,15 @@
+.div1 p {
+    background-color: blue;
+}
+
+.div-hijo-directo > p {
+    background-color: antiquewhite;
+}
+
+.selector-adyacente + section {
+    background-color: brown;
+}
+
+.selector-hermanos-generales ~ section{
+    background-color: yellowgreen;
+}
