@@ -13,3 +13,31 @@
 .selector-hermanos-generales ~ section{
     background-color: yellowgreen;
 }
+
+.div-pseudoclases1 {
+    background-color: antiquewhite;
+}
+
+.div-pseudoclases2 {
+    color: black;
+}
+
+.div-pseudoclases1 p:hover{
+    background-color: red;
+}
+
+.div-pseudoclases2 p:nth-child(3) {
+    color: blueviolet;
+}
+
+.pseudoelementos1 p::before {
+    content: "✨";
+}
+
+.pseudoelementos2 p::after {
+    content: "✨";
+}
+
+.pclass-pelem p:hover::before {
+    content: "✨" ;
+}
