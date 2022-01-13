@@ -41,3 +41,20 @@
 .pclass-pelem p:hover::before {
     content: "✨" ;
 }
+
+#h4-display-block {
+    display: block;
+    background: yellowgreen;
+}
+
+#h4-display-inline {
+    display: inline;
+    background: yellowgreen;
+}
+
+#h4-display-inline-block {
+    display: inline-block;
+    background: yellowgreen;
+    width: 300px;
+    height: 80px;
+}
