@@ -68,3 +68,39 @@
     border: 5px solid #000;
     margin: 10px 20px 30px 40px;
 }
+
+#div-colapso1 {
+    width: 80px;
+    height: 50px;
+    background: blue;
+    margin-bottom: 30px;
+    padding: 4px;
+}
+
+#div-colapso2 {
+    width: 80px;
+    height: 50px;
+    background: red;
+    margin-top: 35px;
+    padding: 4px;
+}
+
+#div-colapso-flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#div-flex-1 {
+    background: red;
+    width: 100px;
+    height: 60px;
+    margin-bottom: 30px;   
+}
+
+#div-flex-2 {
+    background: blue;
+    width: 100px;
+    height: 60px; 
+    margin-top: 40px; 
+}

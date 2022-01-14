@@ -104,8 +104,20 @@
     <!--Modelo de caja-->
     <p>---------------------------------------------</p>
     <h3>Modelo de caja</h3>
+    <p>Acá usando el inspector del navegador podemos ver las márgenes dadas con CSS.</p>
     <div id="box-model">
         <p>Box</p>
+    </div>
+
+    <p>Ahora, analicemos el colapso de márgenes:</p>
+    <p>Cuando el contenedor es de tipo block entonces las margenes verticales se colapsan</p>
+    <div id="div-colapso1">div 1</div>
+    <div id="div-colapso2">div 2</div>
+
+    <p>Si el contenedor es ya sea flex o grid entonces las margenes verticales se suman</p>
+    <div id="div-colapso-flex">
+        <div id="div-flex-1">div 1</div>
+        <div id="div-flex-2">div 2</div>
     </div>
 
 </body>
