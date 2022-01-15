@@ -3,15 +3,15 @@
 }
 
 .div-hijo-directo > p {
-    background-color: antiquewhite;
+    background: antiquewhite;
 }
 
 .selector-adyacente + section {
-    background-color: brown;
+    background: brown;
 }
 
 .selector-hermanos-generales ~ section{
-    background-color: yellowgreen;
+    background: yellowgreen;
 }
 
 .div-pseudoclases1 {
@@ -104,3 +104,56 @@
     height: 60px; 
     margin-top: 40px; 
 }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://i.pinimg.com/originals/2d/87/b3/2d87b3bc358e08070f8a8e719ab05400.jpg");
+    background-size:cover;
+    background-position-x: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    overflow: hidden;
+}
+
+.c1 {   
+    background: blue;
+    flex-basis: 70%;
+    opacity: 0.1;
+ }
+
+.c2 {
+    background: black;
+    flex-basis: 30%;
+    opacity: 0.5;
+    border-top: 1px solid orange;
+}
+
+.c2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    width: 40%;  
+}
+
+.info-top {
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.info-top a {
+    color: white;
+    text-decoration:line-through;
+}
+
+
